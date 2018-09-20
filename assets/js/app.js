@@ -5,7 +5,8 @@ import BootstrapVue from 'bootstrap-vue';
 import Products from './components/Products';
 import Pdetails from './components/Details';
 
-import "bootstrap-vue/dist/bootstrap-vue.css";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 Vue.use(BootstrapVue);
 Vue.use(VueResource);
