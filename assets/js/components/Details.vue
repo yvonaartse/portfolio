@@ -1,9 +1,11 @@
 <template>
-    <div>
-        <p>This is the detail view</p>
-        <p>Product id: {{ product.id }}</p>
-        <p>Product name: {{ product.name }}</p>
-        <p>Product description: {{ product.description }}</p>
+    <div class="container">
+        <div class="card product text-center">
+            <div class="card-body">
+                <h5 class="card-title">{{ product.name }}</h5>
+                <p>Product description: {{ product.description }}</p>
+            </div>
+        </div>
     </div>
 </template>
 

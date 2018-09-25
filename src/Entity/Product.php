@@ -26,6 +26,12 @@ class Product
      * @var string
      * @ORM\Column(type="text")
      */
+    private $intro;
+    /**
+     *
+     * @var string
+     * @ORM\Column(type="text")
+     */
     private $description;
     /**
      * @return int
@@ -57,6 +63,22 @@ class Product
     public function setName(string $name): Product
     {
         $this->name = $name;
+        return $this;
+    }
+    /**
+     * @return string
+     */
+    public function getIntro()
+    {
+        return $this->intro;
+    }
+    /**
+     * @param string $intro
+     * @return Product
+     */
+    public function setIntro(string $intro): Product
+    {
+        $this->intro = $intro;
         return $this;
     }
     /**

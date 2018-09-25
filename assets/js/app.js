@@ -1,3 +1,4 @@
+
 import Vue from 'vue';
 import VueResource from 'vue-resource';
 import VueRouter from 'vue-router';
@@ -7,6 +8,7 @@ import Pdetails from './components/Details';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
+import '../css/app.scss';
 
 Vue.use(BootstrapVue);
 Vue.use(VueResource);
